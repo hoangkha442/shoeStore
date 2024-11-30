@@ -25,6 +25,7 @@ const ProductSchema = mongoose.Schema({
   price: Number,
   image: String,
   cdate: Number,
+  description: String,
   category: CategorySchema
 }, { versionKey: false });
 const ItemSchema = mongoose.Schema({
